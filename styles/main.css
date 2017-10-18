@@ -7,9 +7,15 @@ body {
 .header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  overflow-y: auto;
-	position:relative;
-  z-index:1000;
+  display:block;
+  background-image: url(roomie.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	position:fixed;
+
   top:0px;
   left:0px;
   width: 100%;
@@ -69,7 +75,7 @@ h4 {
   color: #466995;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase
@@ -91,6 +97,7 @@ p {
   text-align: center;
   width: 100%;
   z-index: 999;
+
 }
 
 .question {
@@ -98,19 +105,21 @@ p {
   text-align: center;
   position:relative;
 
-  
+
+
 }
 div.question{
   top:240px;
 }
 
 .answer {
-  border: 1px solid #466995;
+  border: 20px solid #466995;
   display: inline-block;
-  height: 100px;
-  margin: 20px;
-  padding-top: 40px;
-  width: 220px;
+  height: 30px;
+  margin: 25px;
+  padding: 25px;
+  width: 150px;
+  background-color: lightgrey;
 }
 div.answer{
 
